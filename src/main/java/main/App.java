@@ -31,6 +31,10 @@ public class App
 
     rocket.fly();
     rocket.printSpecs();
-    }
+
+    // Tehdään uusi Rocket-olio ja kutsutaan sen fly-metodia
+    Rocket rocket2 = new Rocket();
+    rocket2.fly();
+    }   
 
 }
