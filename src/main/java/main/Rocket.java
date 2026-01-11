@@ -4,11 +4,12 @@ package main;
 // Luokka Rocket sisältää kolme attribuuttia eli jäsenmuuttujaa: name, mass ja height
 // Sen jälkeen luokalle muodostetaan rakentaja, joka on julkinen (public) ja jolla on sama nimi kuin luokalla
 // Rakentaja metodi, jolla ei ole palautusarvoa. Se määrittelee, miten luokan oliot alustetaan
+// private tarkoittaa, että attribuutin arvoa ei voi muuttaa suoraan luokan ulkopuolelta
 
 public class Rocket {
-    String name;
-    int mass;
-    int height;
+    private String name;
+    private int mass;
+    private int height;
 
     public Rocket() {
         name = "Falcon Heavy";
