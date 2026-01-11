@@ -30,4 +30,11 @@ public class Rocket {
         System.out.println("Massa: " + mass + " kg");
         System.out.println("Korkeus: " + height + " m");
     }
+
+    // viikko 2:
+    // tehdään public string metodi
+
+    public String toString() {
+        return name;
+    }
 }

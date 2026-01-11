@@ -18,23 +18,27 @@ public class App
         // System on luokka, out on olio ja println on metodi
         System.out.println("Raketti-testiohjelma alkaa.");
 
-    // Kun luokka Rocket on määritelty omassa tiedostossaan Rocket.java,
-    // luodaan täällä Rocket-olio 
-    // Tehdään uusi muuttuja, jonka tyyppi on Rocket ja sille annetaan nimi,
-    // tässä esimerkissä rocket
-    // Luokka (Rocket) ona aina isolla alkukirjaimella 
-    // ja muuttuja (rocket) pienellä alkukirjaimella
+        // Kun luokka Rocket on määritelty omassa tiedostossaan Rocket.java,
+        // luodaan täällä Rocket-olio 
+        // Tehdään uusi muuttuja, jonka tyyppi on Rocket ja sille annetaan nimi,
+        // tässä esimerkissä rocket
+        // Luokka (Rocket) ona aina isolla alkukirjaimella 
+        // ja muuttuja (rocket) pienellä alkukirjaimella
 
-    Rocket rocket = new Rocket();
+        Rocket rocket = new Rocket();
 
-    // Kutsutaan metodeja, jotka on määritelty Rocket-luokassa tiedostossa Rocket.java
+        // Kutsutaan metodeja, jotka on määritelty Rocket-luokassa tiedostossa Rocket.java
 
-    rocket.fly();
-    rocket.printSpecs();
+        rocket.fly();
+        rocket.printSpecs();
 
-    // Tehdään uusi Rocket-olio ja kutsutaan sen fly-metodia
-    Rocket rocket2 = new Rocket();
-    rocket2.fly();
+        // Tehdään uusi Rocket-olio ja kutsutaan sen fly-metodia
+        Rocket rocket2 = new Rocket();
+        rocket2.fly();
+
+        // viikko 2:
+        // kutsutaan toString metodia
+        System.out.println(rocket);
     }   
 
 }
